@@ -11,7 +11,7 @@ namespace pracGit.Controllers
         // GET: Sample
         public ActionResult Index()
         {
-            ViewData["Info"] = "Hi";
+            ViewData["Info"] = "hello";
             return View();
         }
     }
